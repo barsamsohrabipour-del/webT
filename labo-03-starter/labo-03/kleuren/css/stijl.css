@@ -2,7 +2,72 @@
 
 /* === tokens === */
 :root {
-
+    --box-padding: 15vh;
+    --text-align: center;
+    --text-font: arial;
+    --text-color: white;
+    --letter-space: 0.25rem 
 }
 
+
 /* === your rules === */
+
+.tomato {
+    background-color: tomato;
+    padding: var(--box-padding);
+    text-align: var(--text-align);
+    color: var(--text-color);
+    font: var(--text-font);
+    letter-spacing: var(--letter-space);
+
+}
+.orangered{
+    background-color: orangered;
+    padding: var(--box-padding);
+    text-align: var(--text-align);
+    color: var(--text-color);
+    font: var(--text-font);
+    letter-spacing: var(--letter-space);
+}
+.coral{
+    background-color: coral;
+    padding: var(--box-padding);
+    text-align: var(--text-align);
+    color: var(--text-color);
+    font: var(--text-font);
+    letter-spacing: var(--letter-space);
+}
+.lightsalmon{
+    background-color: lightsalmon;
+    padding: var(--box-padding);
+    text-align: var(--text-align);
+    color: var(--text-color);
+    font: var(--text-font);
+    letter-spacing: var(--letter-space);
+}
+.darkorange{ 
+    background-color: darkorange;
+    padding: var(--box-padding);
+    text-align: var(--text-align);
+    color: var(--text-color);
+    font: var(--text-font);
+    letter-spacing: var(--letter-space);
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    height: 40vh;
+    list-style: none;
+
+}
+p{
+    word-spacing: 1rem;
+}
+ 
+h2{
+    margin-bottom: 2vh;
+}
+
