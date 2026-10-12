@@ -6,3 +6,42 @@
 }
 
 /* === your rules === */
+
+
+
+main{
+    background-color: #ec4b03;
+    border: 0.75rem solid black;
+    width: 90vh;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    
+}
+div{
+    background-color: #b99ec1;
+    border: 0.75rem solid black;
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+    overflow: hidden;
+    
+}
+
+h1{
+    background-color: #f9b700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 0.75rem solid black ;
+    width: 90%;
+    height: 90%;
+    margin-top: -7%;
+    margin-left: -7%;    
+    padding-top: 16rem;
+    box-sizing: border-box;
+    font-size: 4rem;
+}
+
+
