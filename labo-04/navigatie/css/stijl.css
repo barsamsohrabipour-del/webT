@@ -6,3 +6,39 @@
 }
 
 /* === your rules === */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f3a2e;
+    padding:1rem 2rem 1rem 2rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    margin: .5rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: #f3efe6; 
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    border-radius: 0.5rem;   
+}
+
+header > a{
+    color: #e6b53c;
+    font-size: 1.25rem;
+
+}
+
+li > a:focus,li a:hover{
+    background-color: #e6b53c;
+    color: #1f3a2e;
+    
+}
